@@ -1,0 +1,478 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* base_tier_validation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0-20210712\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-13 12:07+0000\n"
+"PO-Revision-Date: 2021-08-13 12:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/systray.xml:0
+msgid "0 Pending"
+msgstr "0 待驗證"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
+msgid "<span class=\"oe_edit_only\">Name</span>"
+msgstr "<span class=\"oe_edit_only\">名稱</span>"
+
+#. module: base_tier_validation
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A review has been requested by %s."
+msgstr "%s 已申請驗證。"
+
+#. module: base_tier_validation
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A review was accepted"
+msgstr "驗證已批准。"
+
+#. module: base_tier_validation
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A review was accepted. (%s)"
+msgstr "驗證已批准。(%s)"
+
+#. module: base_tier_validation
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A review was rejected by %s."
+msgstr "驗證已被%s拒絕。"
+
+#. module: base_tier_validation
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A review was rejected by {}. ({})"
+msgstr "驗證已被{}拒絕。({})"
+
+#. module: base_tier_validation
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "A validation process is still open for at least one record."
+msgstr "其中記錄未完成驗證流程。"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__active
+msgid "Active"
+msgstr "啓動"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/systray.xml:0
+msgid "Activities"
+msgstr "活動項目"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_search
+msgid "All"
+msgstr "所有"
+
+#. module: base_tier_validation
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__review_type__group
+msgid "Any user in a specific group."
+msgstr "指定權限组"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_definition__approve_sequence
+#: model:ir.model.fields,help:base_tier_validation.field_tier_review__approve_sequence
+msgid "Approval order by the specified sequence number"
+msgstr "驗證依據指定序號"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__approve_sequence
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__approve_sequence
+msgid "Approve by sequence"
+msgstr "按順序驗證"
+
+#. module: base_tier_validation
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__approved
+msgid "Approved"
+msgstr "已批准"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__can_review
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__can_review
+msgid "Can Review"
+msgstr "可驗證"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_review__can_review
+msgid "Can review will be marked if the review is pending and the\n"
+"        approve sequence has been achieved"
+msgstr "如任務處於待驗證狀態並且匹配對應驗證節點順序，標記可驗證"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.view_comment_wizard
+msgid "Cancel"
+msgstr "取消"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__comment
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__has_comment
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__has_comment
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.view_comment_wizard
+msgid "Comment"
+msgstr "備注"
+
+#. module: base_tier_validation
+#: model:ir.model,name:base_tier_validation.model_comment_wizard
+msgid "Comment Wizard"
+msgstr "備注嚮導"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__comment
+msgid "Comments"
+msgstr "備注"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__company_id
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__create_uid
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__create_uid
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__create_uid
+msgid "Created by"
+msgstr "創立者"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__create_date
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__create_date
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__definition_type
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__definition_id
+msgid "Definition"
+msgstr "定義類型"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__definition_domain
+msgid "Definition Domain"
+msgstr "定義作用域"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__name
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__name
+msgid "Description"
+msgstr "描述"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__display_name
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__display_name
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__display_name
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: base_tier_validation
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__definition_type__domain
+msgid "Domain"
+msgstr "作用域"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__done_by
+msgid "Done By"
+msgstr "驗證者"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
+msgid "Done by"
+msgstr "驗證者"
+
+#. module: base_tier_validation
+#: code:addons/base_tier_validation/models/tier_review.py:0
+msgid "Group %s"
+msgstr "驗證組 %s"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_search
+msgid "Group By"
+msgstr "分組"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__has_comment
+msgid "Has Comment"
+msgstr "含備注"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__id
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__id
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__id
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,help:base_tier_validation.field_tier_definition__notify_on_create
+msgid "If set, all possible reviewers will be notified by email when this definition is triggered."
+msgstr "如設置，則在觸發此定義時將通過電子郵件通知所有可能的驗證者。"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard____last_update
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition____last_update
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review____last_update
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation____last_update
+msgid "Last Modified on"
+msgstr "最後修改於"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__write_uid
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__write_uid
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__write_date
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__write_date
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__write_date
+msgid "Last Updated on"
+msgstr "最後更新於"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__model
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_search
+msgid "Model"
+msgstr "模型"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__need_validation
+msgid "Need Validation"
+msgstr "需驗證"
+
+#. module: base_tier_validation
+#: code:addons/base_tier_validation/models/tier_definition.py:0
+msgid "New Tier Validation"
+msgstr "新基層定義"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/systray.xml:0
+msgid "No reviews to do."
+msgstr "無待辦驗證"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__notify_on_create
+msgid "Notify Reviewers on Creation"
+msgstr "創建時通知驗證著"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/systray.xml:0
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__pending
+msgid "Pending"
+msgstr "待辦"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__model_id
+msgid "Referenced Model"
+msgstr "參照模型"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__rejected
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_review__status__rejected
+msgid "Rejected"
+msgstr "被拒絕"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__res_id
+msgid "Related Document ID"
+msgstr "相關文檔 ID"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__model
+msgid "Related Document Model"
+msgstr "相關文件模型"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__requested_by
+msgid "Requested By"
+msgstr "請求著"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
+msgid "Requested by"
+msgstr "請求著"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__res_id
+msgid "Res"
+msgstr "资源"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__res_model
+msgid "Res Model"
+msgstr "资源模型"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/systray.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__review_ids
+msgid "Review"
+msgstr "驗證"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__reviewer_id
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_id
+msgid "Reviewer"
+msgstr "驗證著"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__reviewer_group_id
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_group_id
+msgid "Reviewer group"
+msgstr "驗證組"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewer_ids
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__reviewer_ids
+msgid "Reviewers"
+msgstr "驗證們"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/systray.xml:0
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_res_users__review_ids
+msgid "Reviews"
+msgstr "驗證"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__sequence
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__sequence
+msgid "Sequence"
+msgstr "順序"
+
+#. module: base_tier_validation
+#: model:ir.model.fields.selection,name:base_tier_validation.selection__tier_definition__review_type__individual
+msgid "Specific user"
+msgstr "特定使用者"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__status
+msgid "Status"
+msgstr "狀況"
+
+#. module: base_tier_validation
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "The operation is under validation."
+msgstr "該操作正在驗證中。"
+
+#. module: base_tier_validation
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+msgid "This action needs to be validated for at least one record. Reviews pending:\n"
+" - %s \n"
+"Please request a validation."
+msgstr "此操作需要至少單記錄通過驗證。待辦驗證：\n"
+" - %s\n"
+"請請求驗證。"
+
+#. module: base_tier_validation
+#: model:ir.actions.act_window,name:base_tier_validation.tier_definition_action
+#: model:ir.model,name:base_tier_validation.model_tier_definition
+#: model:ir.ui.menu,name:base_tier_validation.menu_tier_definition
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_tree
+msgid "Tier Definition"
+msgstr "層級定義"
+
+#. module: base_tier_validation
+#: model:ir.model,name:base_tier_validation.model_tier_review
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_review_view_tree
+msgid "Tier Review"
+msgstr "層級驗證"
+
+#. module: base_tier_validation
+#: model:ir.model,name:base_tier_validation.model_tier_validation
+msgid "Tier Validation (abstract)"
+msgstr "層級驗證（抽像）"
+
+#. module: base_tier_validation
+#: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_accepted
+msgid "Tier Validation Accepted Notification"
+msgstr "層級驗證通過通知"
+
+#. module: base_tier_validation
+#: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_rejected
+msgid "Tier Validation Rejected Notification"
+msgstr "層級驗證拒絕通知"
+
+#. module: base_tier_validation
+#: model:mail.message.subtype,name:base_tier_validation.mt_tier_validation_requested
+msgid "Tier Validation Requested"
+msgstr "已請求層級驗證"
+
+#. module: base_tier_validation
+#: model:ir.ui.menu,name:base_tier_validation.menu_tier_confirmation
+msgid "Tier Validations"
+msgstr "層級驗證"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__todo_by
+msgid "Todo By"
+msgstr "待辦事項"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
+msgid "Todo by"
+msgstr "待辦事項"
+
+#. module: base_tier_validation
+#: model:ir.model,name:base_tier_validation.model_res_users
+msgid "Users"
+msgstr "使用者"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_comment_wizard__validate_reject
+msgid "Validate Reject"
+msgstr "驗證拒絕"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__validated
+msgid "Validated"
+msgstr "已驗證"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__review_type
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__review_type
+msgid "Validated by"
+msgstr "驗證於"
+
+#. module: base_tier_validation
+#. openerp-web
+#: code:addons/base_tier_validation/static/src/xml/tier_review_template.xml:0
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_review__reviewed_date
+msgid "Validation Date"
+msgstr "驗證日期"
+
+#. module: base_tier_validation
+#: model:ir.model.fields,field_description:base_tier_validation.field_tier_validation__review_ids
+msgid "Validations"
+msgstr "驗證"
+
+#. module: base_tier_validation
+#: model_terms:ir.ui.view,arch_db:base_tier_validation.tier_definition_view_form
+msgid "e.g. Tier Validation for..."
+msgstr "例如:用於...的層級驗證..."
